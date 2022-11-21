@@ -40,7 +40,6 @@ def nearNum(num, bias, o_rank):
         return convert(bias // val) + answer
     
 
-
 def arabToRome(number):
     try:
         if type(int(number)) == int and 0 < int(number) < 4000:
@@ -62,9 +61,11 @@ def arabToRome(number):
 
 
 def main():
-    print("Конвертор арабских чисел в римские!\nВведите число:")
+    #print("Конвертор арабских чисел в римские!\nВведите число:")
+    print("Конвертор римских чисел в арабские!\nВведите число:")
     try:
         while True:
+            #print(arabToRome(input()))
             print(arabToRome(input()))
     except:
         pass
